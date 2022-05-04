@@ -69,7 +69,7 @@ sheet.getRange(9,1,sheet.getLastRow(),5).clear();
 function runalot(){
   for( let i = 0 ; i < 20; i ++){
     setup();
-    autoPlay();
+    autoPlayGame();
   }
 }
 //auto play the game until you get to a battle, then pause and wait for user input. 
