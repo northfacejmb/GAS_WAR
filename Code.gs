@@ -131,13 +131,15 @@ while(status != false){
         cell.setValue(player_1.name +" has won!");
              let sheet3 = ss.getSheetByName("Logs");
           sheet3.getRange(sheet3.getLastRow()+1,1).setValue(player_1.name);
+           let battlenum = sheet.getRange("h1").getValue();
+            sheet3.getRange(sheet3.getLastRow()+1,3).setValue(battlenum);
         return false}
         else{play.setValue("Game over").setBackground("Red");
             cell.setValue(player_2.name +" has won!");
             let sheet3 = ss.getSheetByName("Logs");
             sheet3.getRange(sheet3.getLastRow()+1,1).setValue(player_2.name);
-            
-            sheet.getRange("C6:D6").getValues();
+            let battlenum = sheet.getRange("h1").getValue();
+            sheet3.getRange(sheet3.getLastRow()+1,3).setValue(battlenum);
            
         return false}
 
