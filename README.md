@@ -1,6 +1,6 @@
 # GAS_WAR
 v1. May 4, 2022
-The card game of WAR for Google Apps Script
+The card game of WAR for Google Sheets using Google AppScript
 
 Step 1: copy spreadsheet 
 https://docs.google.com/spreadsheets/d/1qOxLqqtyJE1j3K-mRCtNqP0Zmp3Tm7XLSr7Ev1zQ6A8/copy
